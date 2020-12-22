@@ -1,3 +1,7 @@
+/*
+this code was developed by Nick Baicoianu at MeanFreePath: http://www.meanfreepath.com
+ */
+
 export default () => {
     Date.prototype.getWeek = function (dowOffset) {
         dowOffset = typeof(dowOffset) == 'int' ? dowOffset : 0; //default dowOffset to zero
